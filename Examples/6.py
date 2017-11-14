@@ -4,9 +4,12 @@ Spyder Editor
 
 This is a temporary script file.
 """
+# Function to multiply the first num and the second num, and 
+# add to the third num. Fails in 3.5.2
 def testfn(f,x,y):
     return f(x) + y
     
+# Function that adds 10 to supplied arg
 def add10(c):
     return c+10
     
